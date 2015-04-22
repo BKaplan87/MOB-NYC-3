@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Beermo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yTT-oJ-d97">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pcZ-Ja-srk">
+                                <rect key="frame" x="0.0" y="-5" width="320" height="578"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BeerMe ~~~~~~~~~~~~~~~~~~~" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x9l-PB-x9W">
+                                        <rect key="frame" x="6" y="34" width="307" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="1" height="-1"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 2.jpg" id="wBB-Et-BaV">
+                                        <rect key="frame" x="4" y="200" width="111" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG.png" id="A5o-LX-xyB">
+                                        <rect key="frame" x="151" y="200" width="154" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 5.jpg" id="anm-7L-cVB">
+                                        <rect key="frame" x="84" y="300" width="148" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 4.jpg" id="Kji-Lf-J1K">
+                                        <rect key="frame" x="10" y="300" width="87" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 7.jpg" id="edL-LS-5j3">
+                                        <rect key="frame" x="215" y="300" width="100" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 8.jpeg" id="fNa-T3-561">
+                                        <rect key="frame" x="205" y="400" width="100" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 3.jpg" id="CvW-1W-P5g">
+                                        <rect key="frame" x="115" y="400" width="65" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 6.jpg" id="cht-Dt-z62">
+                                        <rect key="frame" x="15" y="400" width="82" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 9.jpeg" id="hO5-xS-v2W">
+                                        <rect key="frame" x="12" y="500" width="93" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 10.jpeg" id="nCn-zE-7RX">
+                                        <rect key="frame" x="204" y="500" width="104" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 11.jpeg" id="YB8-Jv-yWp">
+                                        <rect key="frame" x="126" y="500" width="61" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 12.jpeg" id="49y-kc-8EK">
+                                        <rect key="frame" x="15" y="600" width="87" height="61"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 13.jpeg" id="MOL-OS-h20">
+                                        <rect key="frame" x="121" y="600" width="68" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 14.jpeg" id="S8h-ar-LTG">
+                                        <rect key="frame" x="213" y="600" width="77" height="58"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 15.jpeg" id="YBT-j2-Cnk">
+                                        <rect key="frame" x="84" y="700" width="145" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Beer-Group-VDG 16.jpg" id="4kV-Yu-oUP">
+                                        <rect key="frame" x="78" y="100" width="164" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="320" height="1000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="263"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Beer-Group-VDG 10.jpeg" width="250" height="202"/>
+        <image name="Beer-Group-VDG 11.jpeg" width="214" height="235"/>
+        <image name="Beer-Group-VDG 12.jpeg" width="275" height="183"/>
+        <image name="Beer-Group-VDG 13.jpeg" width="233" height="217"/>
+        <image name="Beer-Group-VDG 14.jpeg" width="232" height="218"/>
+        <image name="Beer-Group-VDG 15.jpeg" width="315" height="160"/>
+        <image name="Beer-Group-VDG 16.jpg" width="600" height="279"/>
+        <image name="Beer-Group-VDG 2.jpg" width="779" height="431"/>
+        <image name="Beer-Group-VDG 3.jpg" width="537" height="531"/>
+        <image name="Beer-Group-VDG 4.jpg" width="500" height="444"/>
+        <image name="Beer-Group-VDG 5.jpg" width="460" height="303"/>
+        <image name="Beer-Group-VDG 6.jpg" width="540" height="466"/>
+        <image name="Beer-Group-VDG 7.jpg" width="500" height="387"/>
+        <image name="Beer-Group-VDG 8.jpeg" width="293" height="172"/>
+        <image name="Beer-Group-VDG 9.jpeg" width="271" height="186"/>
+        <image name="Beer-Group-VDG.png" width="2180" height="900"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
